@@ -15,6 +15,7 @@
 		0E3C36C01C1AAB5000846AD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3C36BE1C1AAB5000846AD7 /* LaunchScreen.storyboard */; };
 		0E3C36CB1C1AAB5000846AD7 /* Animation3DRollingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C36CA1C1AAB5000846AD7 /* Animation3DRollingTests.m */; };
 		0E3C36D61C1AAB5000846AD7 /* Animation3DRollingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C36D51C1AAB5000846AD7 /* Animation3DRollingUITests.m */; };
+		0E3C36E61C1AABF700846AD7 /* 3DRollingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C36E51C1AABF700846AD7 /* 3DRollingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0E3C36D11C1AAB5000846AD7 /* Animation3DRollingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Animation3DRollingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3C36D51C1AAB5000846AD7 /* Animation3DRollingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animation3DRollingUITests.m; sourceTree = "<group>"; };
 		0E3C36D71C1AAB5000846AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E3C36E41C1AABF700846AD7 /* 3DRollingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3DRollingView.h; sourceTree = "<group>"; };
+		0E3C36E51C1AABF700846AD7 /* 3DRollingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 3DRollingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		0E3C36AF1C1AAB5000846AD7 /* Animation3DRolling */ = {
 			isa = PBXGroup;
 			children = (
+				0E3C36E31C1AAB6000846AD7 /* 3DRollingCategory */,
 				0E3C36B31C1AAB5000846AD7 /* AppDelegate.h */,
 				0E3C36B41C1AAB5000846AD7 /* AppDelegate.m */,
 				0E3C36B61C1AAB5000846AD7 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				0E3C36D71C1AAB5000846AD7 /* Info.plist */,
 			);
 			path = Animation3DRollingUITests;
+			sourceTree = "<group>";
+		};
+		0E3C36E31C1AAB6000846AD7 /* 3DRollingCategory */ = {
+			isa = PBXGroup;
+			children = (
+				0E3C36E41C1AABF700846AD7 /* 3DRollingView.h */,
+				0E3C36E51C1AABF700846AD7 /* 3DRollingView.m */,
+			);
+			name = 3DRollingCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				0E3C36B81C1AAB5000846AD7 /* ViewController.m in Sources */,
 				0E3C36B51C1AAB5000846AD7 /* AppDelegate.m in Sources */,
 				0E3C36B21C1AAB5000846AD7 /* main.m in Sources */,
+				0E3C36E61C1AABF700846AD7 /* 3DRollingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
